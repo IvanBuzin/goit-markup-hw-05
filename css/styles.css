@@ -22,7 +22,6 @@ ul {
 
 a {
   text-decoration: none;
-  display: flex;
 }
 
 h1,
@@ -612,10 +611,6 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
-}
-
-.subscription-icons {
-  margin-left: 16px;
 }
 
 .subscription-input {
