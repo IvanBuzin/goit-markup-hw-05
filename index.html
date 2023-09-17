@@ -22,10 +22,10 @@
         <!--Logo-->
         <div class="container page-head-container">
             <nav class="page-navigation">
-                <a href="./index.html" class="logo rrr">Web<span class="web">Studio</span></a>
+                <a href="./index.html" class="logo rrr">Web<span class="web link">Studio</span></a>
 
                 <!--Menu Nav-->
-                <ul class="nav-list">
+                <ul class="nav-list list">
                     <li class="nav-item"><a href="./index.html" class="panel current">Studio</a></li>
                     <li class="nav-item"><a href="./index.html" class="panel">Portfolio</a></li>
                     <li class="nav-item"><a href="./index.html" class="panel">Contacts</a></li>
@@ -290,8 +290,11 @@
                 <ul class="portfolio-list">
                     <li class="portfolio-item">
                         <div class="portfolio-img">
-                            <img class="card-image-portfolio" src="./images/portfolio/BankingApp.jpg" alt="BankingApp"
-                                width="360" height="300">
+                            <img class="card-image-portfolio" srcset="../images/retina-w/img-decktop.ipg 270w,
+                                ../images/retina-w/img-tablet.ipg 330w, ../images/retina-w/img-mobile.ipg 418w,"
+                                sizes="(min-width 1200px) 270px, (min-width 768px) 330px, (max-width 767px) 418px"
+                                <!--зразок--!>
+                            src="./images/portfolio/BankingApp.jpg" alt="BankingApp" width="360" height="300">
                             <p class="overlay-text">14 Stylish and User-Friendly App Design Concepts · Task Manager
                                 App
                                 · Calorie Tracker App ·
