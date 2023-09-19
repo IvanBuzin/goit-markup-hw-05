@@ -1,4 +1,4 @@
-/*---HEADER---
+/*---HEADER---*/
 
 .head {
   color: rgba(255, 255, 255, 1);
@@ -127,7 +127,7 @@
   font-style: normal;
 }
 
-/*--HERO SECTION Sektion1--*
+/*--HERO SECTION Sektion1--*/
 
 .effective {
   background: #2e2f42;
@@ -137,7 +137,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/PeopleOffice.jpg);
+    url(./images/hero/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -189,7 +189,7 @@
   background-color: #404bbf;
 }
 
-/*--STRATEGY SECTION Sektion2--*
+/*--STRATEGY SECTION Sektion2--*/
 .strategy {
   padding: 120px 0;
 }
@@ -306,7 +306,7 @@
   font-weight: 400;
 }
 
-/**--Sektion Team--**
+/**--Sektion Team--**/
 .ourteam-clas,
 .ourteam-container,
 .ourteam-item {
@@ -394,7 +394,7 @@
   background-color: #404bbf;
 }
 
-/** <!--Sektion Portfolio-->**
+/** <!--Sektion Portfolio-->**/
 
 .portfolio {
   padding-top: 120px;
@@ -504,7 +504,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/*<!--Footer-->*
+/*<!--Footer-->*/
 
 .footer {
   background: #2e2f42;
@@ -585,7 +585,7 @@
   background-color: #31d0aa;
 }
 
-/**---Subscribe---**
+/**---Subscribe---**/
 
 .subscription {
   display: flex;
@@ -647,7 +647,7 @@
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% *
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   border: none;
   padding: 8px 24px;
@@ -664,7 +664,7 @@
   background-color: #404bbf;
 }
 
-/*<!--modal window-->-*
+/*<!--modal window-->-*/
 .backdrop {
   position: fixed;
   top: 0;
