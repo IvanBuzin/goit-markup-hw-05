@@ -213,6 +213,7 @@
   }
 
   .subscription-subtitle {
+    justify-content: flex-start;
   }
 
   .subscription-input {
