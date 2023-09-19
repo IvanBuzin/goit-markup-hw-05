@@ -15,7 +15,8 @@
   display: none;
 }
 
-.contact-con {
+.contact-con,
+.nav-list {
   display: none;
 }
 
@@ -75,7 +76,7 @@
   width: 24px;
   height: 24px;
 }
-/*---------perevireno------*/
+
 .mobile-menu-navi-container {
   margin-left: 16px;
 }
