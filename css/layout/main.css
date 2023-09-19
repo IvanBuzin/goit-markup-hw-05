@@ -1,6 +1,6 @@
 /*=========================================== SOLUTION SECTION ===========================================*/
 
-.solution-class .title {
+.effective .effective-h {
   color: var(--WHITE, #fff);
   text-align: center;
   font-family: Roboto, sans-serif;
@@ -14,13 +14,13 @@
   margin-right: auto;
 }
 
-.solution-class {
+.effective {
   background-color: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/background-hero-mobile.jpg);
+    url(/images/hero/people-office-mobile.jpg);
   background-repeat: no-repeat;
   max-width: 320px;
   max-height: 432px;
@@ -32,16 +32,16 @@
 @media screen and (min-resolution: 192dpi) and (min-width: 320px),
   screen and (min-resolution: 2dppx) and (min-width: 320px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
-  .solution-class {
+  .effective {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("/images/background-hero-mobile@2x.jpg");
+      url("/images/hero/people-office-mobile@2x.jpg");
   }
 }
 
-.order-button {
+.button-con {
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
@@ -60,7 +60,7 @@
 /*================================= TABLET ===============================================*/
 
 @media screen and (min-width: 768px) {
-  .solution-class .title {
+  .effective .effective-h {
     color: var(--WHITE, #fff);
     text-align: center;
     font-family: Roboto;
@@ -74,7 +74,7 @@
     max-width: 496px;
   }
 
-  .solution-class {
+  .effective {
     max-width: 768px;
     padding: 112px 0;
     margin: 0 auto;
@@ -85,9 +85,9 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("/images/background-hero-tablet.jpg");
+      url("/images/hero/people-office-tablet.jpg");
   }
-  .order-button {
+  .button-con {
     background-color: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
@@ -102,8 +102,8 @@
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .order-button:hover,
-  .order-button:focus {
+  .button-con:hover,
+  .button-con:focus {
     background-color: #404bbf;
   }
 }
@@ -111,12 +111,12 @@
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-  .solution-class {
+  .effective {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url ("/images/background-hero-tablet@2x.jpg");
+      url ("/images/hero/people-office-tablet@2x.jpg");
   }
 }
 
@@ -125,7 +125,7 @@
 /*================================= DESKTOP =============================================*/
 
 @media screen and (min-width: 1158px) {
-  .solution-class .title {
+  .effective .effective-h {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
@@ -139,7 +139,7 @@
     margin-bottom: 48px;
   }
 
-  .solution-class {
+  .effective {
     background-color: #2e2f42;
     /* padding: 188px 0; */
     max-width: 1440px;
@@ -148,14 +148,14 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("/images/background-hero.jpg");
+      url("/images/hero/people-office.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 }
 
-.order-button {
+.button-con {
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
@@ -170,20 +170,20 @@
   margin: 0 auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.order-button:hover,
-.order-button:focus {
+.button-con:hover,
+.button-con:focus {
   background-color: #404bbf;
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1158px),
   screen and (min-resolution: 2dppx) and (min-width: 1158px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
-  .solution-class {
+  .effective {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("/images/background-hero@2x.jpg");
+      url("/images/hero/people-office-desktop@2x.jpg");
   }
 }
 
@@ -192,18 +192,18 @@
 
 /*=========================================== FEATURES SECTION ===========================================*/
 /*-------------------------------- MOBILE -------------------------*/
-.icon-container {
+.strategy-item-icons {
   display: none;
 }
 
-.features-menu {
+.strategy-list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 72px;
 }
 
-.features-class {
+.strategy-text-h {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
@@ -214,7 +214,7 @@
   text-align: center;
 }
 
-.features-text {
+.strategy-text-p {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -225,18 +225,18 @@
 
 /*-------------------------------- TABLET -------------------------*/
 @media screen and (min-width: 768px) {
-  .features-menu {
+  .strategy-list {
     display: flex;
     flex-flow: row wrap;
     column-gap: 24px;
     row-gap: 72px;
   }
 
-  .features-class {
+  .strategy-text-h {
     align-items: flex-start;
   }
 
-  .features-item {
+  .strategy-item {
     width: calc((100% - 48px) / 2);
   }
 }
@@ -244,17 +244,17 @@
 
 /*-------------------------------- DESKTOP -------------------------*/
 @media screen and (min-width: 1158px) {
-  .features-menu {
+  .strategy-list {
     display: flex;
     flex-flow: wrap;
     gap: 24px;
   }
 
-  .features-item {
+  .strategy-item {
     width: calc((100% - 72px) / 4);
   }
 
-  .features-class {
+  .strategy-text-h {
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
@@ -263,14 +263,14 @@
     margin-bottom: 8px;
   }
 
-  .features-text {
+  .strategy-text-p {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
   }
 
-  .icon-container {
+  .strategy-item-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,11 +289,11 @@
 
 /*=========================================== FEATURES SECTION ===========================================*/
 /*-------------------------------- MOBILE -------------------------*/
-.team-section {
+.ourteam-clas {
   background-color: #f4f4fd;
 }
 
-.team-class {
+.ourteam-clas-h {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-size: 36px;
@@ -304,7 +304,7 @@
   margin-bottom: 72px;
 }
 
-.team-menu {
+.ourteam-list {
   display: flex;
   padding-bottom: 0px;
   flex-direction: column;
@@ -315,7 +315,7 @@
   margin-right: 28px;
 }
 
-.team-list-class {
+.ourteam-item {
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -323,12 +323,12 @@
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.worker-container {
+.ourteam-text {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.team-name-class {
+.ourteam-text-h {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
   font-family: Roboto, sans-serif;
@@ -338,7 +338,7 @@
   letter-spacing: 0.02em;
 }
 
-.team-text-class {
+.ourteam-text-p {
   color: var(--SLATE, #434455);
   text-align: center;
   font-family: Roboto;
@@ -348,19 +348,19 @@
   letter-spacing: 0.02em;
 }
 
-.social-icon-list {
+.socials-list {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
-.social-icon-item {
+.socials-item {
   width: 40px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-link {
+.socials-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -373,26 +373,26 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon-link:hover,
-.social-icon-link:focus {
+.socials-link:hover,
+.socials-link:focus {
   background-color: #404bbf;
 }
 
-.social-icon {
+.team-icons {
   fill: #f4f4fd;
 }
 /*-------------------------------- MOBILE -------------------------*/
 
 /*-------------------------------- TABLET -------------------------*/
 @media screen and (min-width: 768px) {
-  .team-menu {
+  .ourteam-list {
     display: flex;
     flex-flow: row wrap;
     row-gap: 64px;
     column-gap: 24px;
   }
 
-  .features-class {
+  .ourteam-text-h {
     text-align: start;
   }
 }
@@ -400,12 +400,12 @@
 
 /*-------------------------------- DESKTOP -------------------------*/
 @media screen and (min-width: 1158px) {
-  .team-menu {
+  .ourteam-list {
     display: flex;
     gap: 24px;
   }
 
-  .team-class {
+  .ourteam-clas-h {
     font-family: "Roboto", sans-serif;
     font-size: 36px;
     letter-spacing: 0.02em;
@@ -416,14 +416,14 @@
     color: #2e2f42;
     margin-bottom: 72px;
   }
-  .team-list-class {
+  .ourteam-item {
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
-  .team-name-class {
+  .ourteam-text-h {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -438,14 +438,14 @@
 
 /*=========================================== PORTFOLIO SECTION ===========================================*/
 /*-------------------------------- MOBILE -------------------------*/
-.portfolio-overlay {
+.portfolio-img {
 }
 
-.portfolio-overlay-text {
+.overlay-text {
   display: none;
 }
 
-.portfolio-class {
+.portfolio-h {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   letter-spacing: 0.02em;
@@ -457,7 +457,7 @@
   margin-bottom: 48px;
 }
 
-.portfolio-menu {
+.portfolio-list {
   display: flex;
   padding-bottom: 0px;
   flex-flow: row wrap;
@@ -473,13 +473,13 @@
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.apps-container {
+.portfolio-text {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
 
-.portfolio-apps {
+.portfolio-text-h {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -488,14 +488,14 @@
   margin-bottom: 8px;
 }
 
-.portfolio-text {
+.portfolio-text-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.portfolio-img {
+.card-image-portfolio {
   width: 288px;
   height: 280px;
 }
@@ -503,12 +503,12 @@
 
 /*-------------------------------- TABLET -------------------------*/
 @media screen and (min-width: 768px) {
-  .portfolio-img {
+  .card-image-portfolio {
     width: 100%;
     height: 100%;
   }
 
-  .portfolio-menu {
+  .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
@@ -529,7 +529,7 @@
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .portfolio-item:hover .portfolio-overlay-text {
+  .portfolio-item:hover .overlay-text {
     transform: translateY(0%);
   }
 
@@ -538,20 +538,20 @@
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
 
-  .portfolio-menu {
+  .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
   }
 
-  .portfolio-overlay {
+  .portfolio-img {
     display: inline-block;
     position: relative;
     overflow: hidden;
   }
 
-  .portfolio-overlay-text {
+  .overlay-text {
     display: inline-block;
     position: absolute;
     top: 0;
@@ -565,7 +565,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .portfolio-overlay-text:hover {
+  .overlay-text:hover {
     transform: translateY(0%);
   }
 }
