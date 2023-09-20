@@ -1,6 +1,6 @@
 /* UTILS */
-@import "./utils/visually-hidden.css";
 @import "./utils/variables.css";
+@import "./utils/visually-hidden.css";
 
 /* BASE */
 @import "./base/common.css";
@@ -8,7 +8,9 @@
 @import "./base/section.css";
 
 /* LAYOUT */
+@import "./layout/footer.css";
 @import "./layout/header.css";
 @import "./layout/main.css";
-@import "./layout/footer.css";
 @import "./layout/modal-bg.css";
+
+@import "./js/modal.js";
