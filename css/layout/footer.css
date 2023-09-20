@@ -1,5 +1,5 @@
-/*===========================================  FOOTER ===========================================*/
-/*-------------------------------- MOBILE -------------------------*/
+/*========================= Footer ===========================================*/
+/*------------------------- Modile -------------------------*/
 .footer {
   background-color: #2e2f42;
   padding-top: 97.5px;
@@ -9,6 +9,9 @@
 .container-footer {
   display: flex;
   flex-direction: column;
+}
+
+.footer-pege {
 }
 
 .logo-n {
@@ -55,7 +58,7 @@
   margin-right: auto;
 }
 
-.bottom-page-socials-list {
+.footer-social-list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,12 +66,12 @@
   margin-bottom: 72px;
 }
 
-.bottom-page-socials-item {
+.footer-social-item {
   width: 40px;
   height: 40px;
 }
 
-.bottom-page-socials-link {
+.footer-social-link {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -79,12 +82,12 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.bottom-page-icons {
+.footer-social-icons {
   fill: #f4f4fd;
 }
 
-.bottom-page-socials-link:hover,
-.bottom-page-socials-link:focus {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: #31d0aa;
 }
 
@@ -102,10 +105,15 @@
 
   .footer-text-p {
     width: 264px;
+    margin-bottom: 0;
   }
 
   .subscription-input {
     margin-right: 24px;
+  }
+
+  .logo-n {
+    justify-content: flex-start;
   }
 }
 
@@ -117,10 +125,15 @@
     padding-bottom: 100px;
   }
 
+  .logo-n {
+    justify-content: flex-start;
+  }
+
   .container-footer {
     display: flex;
     align-items: baseline;
     flex-wrap: nowrap;
+    gap: 0;
   }
 
   .footer-pege {
@@ -133,7 +146,7 @@
 /*================================== FOOTER-FORM =========================================*/
 /*-------------------------------- MOBILE -------------------------*/
 
-.subscription-subtitle {
+.subscription-text {
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
@@ -143,7 +156,7 @@
   display: flex;
   justify-content: center;
 }
-.subscription {
+.subscription-form {
   display: flex;
   flex-direction: column;
 }
@@ -192,11 +205,11 @@
 
 /*-------------------------------- TABLET -------------------------*/
 @media screen and (min-width: 768px) {
-  .subscription {
+  .subscription-form {
     flex-direction: row;
   }
 
-  .subscription-subtitle {
+  .subscription-text {
     justify-content: flex-start;
   }
 }
@@ -208,12 +221,11 @@
     margin-left: 80px;
   }
 
-  .subscription {
+  .subscription-form {
     display: flex;
   }
 
-  .subscription-subtitle {
-    justify-content: flex-start;
+  .subscription-text {
   }
 
   .subscription-input {

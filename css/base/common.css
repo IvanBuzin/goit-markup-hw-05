@@ -53,8 +53,6 @@ p {
 
 img {
   display: block;
-  height: auto;
-  max-width: 100%;
 }
 .main {
   flex-grow: 1;
