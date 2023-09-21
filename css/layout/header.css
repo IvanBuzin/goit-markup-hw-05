@@ -24,20 +24,29 @@
 }
 
 .logo {
-  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
   text-decoration: none;
-  /* margin-right: 76px; */
   margin-top: 17.5px;
   margin-bottom: 17.5px;
 }
-.logo .web {
+
+.logo,
+.web {
   color: #2e2f42;
+}
+
+.web {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: rgba(46, 47, 66, 1);
 }
 
 .open-mobile-menu-btn {
@@ -153,7 +162,7 @@
 }
 /* MOBILE-MENU */
 
-/*========================================================= TABLET ================================================*/
+/*=============== TABLET ================================================*/
 @media screen and (min-width: 768px) {
   .page-navigation {
     display: flex;
@@ -179,20 +188,26 @@
   }
 
   .panel {
-    color: var(--NAVY-BLUE, #2e2f42);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    color: rgba(46, 47, 66, 1);
+    padding: 24px 0;
     display: block;
     position: relative;
-    padding: 24px 0;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
   }
 
   .panel:hover,
-  .panel:focus {
+  .panel:focus,
+  .panel:active {
     color: #404bbf;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .current {
@@ -254,27 +269,59 @@
     display: none;
   }
 }
-/*========================================================= TABLET ================================================*/
+/*====================== TABLET ================================================*/
 
-/*========================================================= DESKTOP ================================================*/
+/*====================== DESKTOP ================================================*/
 
 @media screen and (min-width: 1158px) {
   .head {
+    color: rgba(255, 255, 255, 1);
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 2px 1px rgba(46, 47, 66, 0.08),
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  }
+
+  .page-head-container {
+    display: flex;
+    justify-content: space-between;
   }
 
   .page-navigation {
     display: flex;
     align-items: center;
+    align-content: calc((100%-80px) / 3);
   }
+
   .logo {
     color: #2e2f42;
   }
 
   .logo {
     margin-right: 76px;
+  }
+
+  .nav-item,
+  .contact-item {
+    display: flex;
+    margin-right: 40px;
+    justify-content: flex-end;
+  }
+
+  .contact-con,
+  .contact-lits,
+  .nav-list,
+  .logo,
+  .web {
+    display: flex;
+    align-items: center;
+  }
+
+  .rrr {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 
   .panel {
@@ -297,14 +344,15 @@
   }
 
   .current::after {
-    width: 100%;
     content: "";
+    width: 48px; /*100%;*/
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+    display: block;
     position: absolute;
     left: 0;
     bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -322,8 +370,26 @@
     color: #404bbf;
   }
   .contact-con {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     font-style: normal;
     margin-left: auto;
+  }
+
+  .contact-con:hover,
+  .contact-con:focus {
+    color: #404bbf;
+  }
+
+  .contact-item:last-child,
+  .nav-item:last-child {
+    margin-right: 0;
   }
 
   .nav-list {
@@ -340,4 +406,4 @@
   }
 }
 
-/*========================================================= DESKTOP ================================================*/
+/*=========================== DESKTOP ================================================*/
