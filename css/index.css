@@ -1,9 +1,7 @@
 /* UTILS */
 @import "./utils/variables.css";
 @import "./utils/visually-hidden.css";
-
-/* BASE */
-@import "./base/common.css";
+@import "./media.css" /* BASE */ @import "./base/common.css";
 @import "./base/container.css";
 @import "./base/section.css";
 
