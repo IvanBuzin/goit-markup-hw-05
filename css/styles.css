@@ -10,93 +10,7 @@
 
 /*<!--Footer-->*/
 
-.footer {
-  background: #2e2f42;
-  padding: 100px 0;
-  display: flex;
-}
-
-.container-footer {
-  display: flex;
-  align-items: baseline;
-}
-.footer-pege {
-  margin-right: 120px;
-}
-
-.web-n {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
-  margin-bottom: 16px;
-}
-
-.logo-n {
-  display: inline-block;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-bottom: 16px;
-}
-
-.footer-text-p {
-  color: #f4f4fd;
-  width: 264px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-/*------g--------*/
-.footer-social-container {
-  width: 208px;
-  margin-right: 80px;
-}
-
-.social-text {
-  color: #fff;
-  font-weight: 500;
-  margin-bottom: 16px;
-}
-
-.footer-socials-list {
-  display: flex;
-  gap: 16px;
-}
-
-.footer-socials-link {
-  border-radius: 50%;
-  background-color: #4d5ae5;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-social-icons {
-  fill: #f4f4fd;
-}
-.footer-socials-link:hover,
-.footer-socials-link:focus {
-  background-color: #31d0aa;
-}
-
 /**---Subscribe---**/
-
-.form-subscription {
-  display: flex;
-  align-items: flex-end;
-  gap: 24px;
-  width: 453px;
-}
 
 .subscription-label {
   width: 264px;
@@ -139,33 +53,6 @@
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.04px;
-}
-.subscription-button {
-  min-width: 165px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5; /* 150% */
-  letter-spacing: 0.04em;
-  border: none;
-  padding: 8px 24px;
-  gap: 16px;
-  border-radius: 4px;
-  background: #4d5ae5;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.subscription-button:hover,
-.subscription-button:focus {
-  background-color: #404bbf;
 }
 
 /*<!--modal bg-->-*/
