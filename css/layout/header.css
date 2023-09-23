@@ -93,13 +93,14 @@
 }
 
 .mobile-menu-address-container {
-  margin-top: auto;
+  margin-bottom: 48px;
 }
 
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  margin-bottom: 168px;
 }
 
 .mobile-menu-link {
@@ -121,7 +122,6 @@
   justify-content: center;
   align-items: flex-end;
   gap: 40px;
-  padding-top: 48px;
 }
 
 .mobile-menu-address-list {
@@ -152,9 +152,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 8px;
-  margin-bottom: 32px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.checkbox-container {
+  display: flex;
 }
 
 .mobile-menu-social-icon {
@@ -309,6 +310,8 @@
 
   .logo {
     margin-right: 76px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .nav-item,
