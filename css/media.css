@@ -1,14 +1,14 @@
 body {
-  background-color: brown;
+  background-color: ;
 }
 
 @media (min-width: 400px) {
   body {
-    background-color: blueviolet;
+    background-color: ;
   }
 }
 @media (min-width: 860px) {
   body {
-    background-color: teal;
+    background-color: ;
   }
 }
