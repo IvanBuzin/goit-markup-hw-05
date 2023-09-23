@@ -12,49 +12,6 @@
 
 /**---Subscribe---**/
 
-.subscription-label {
-  width: 264px;
-}
-.subscription-text {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-}
-
-.subscription-input {
-  width: 264px;
-  height: 40px;
-  border-radius: 4px;
-  border: 1px solid #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-right: 24px;
-  padding-left: 16px;
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  background-color: transparent;
-  transition-property: border-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.subscription-input:focus {
-  border-color: #4d5ae5;
-  outline: transparent;
-}
-
-.subscription-input::placeholder {
-  color: #fff;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 2;
-  letter-spacing: 0.04px;
-}
-
 /*<!--modal bg-->-*/
 .backdrop {
   position: fixed;
