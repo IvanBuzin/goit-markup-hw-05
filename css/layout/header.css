@@ -30,15 +30,14 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--IRIS, #4d5ae5);
   text-decoration: none;
   margin-top: 17.5px;
   margin-bottom: 17.5px;
 }
 
-.logo,
 .web {
-  color: #2e2f42;
+  color: var(--NAVY-BLUE, #2e2f42);
 }
 
 .web {
@@ -192,7 +191,6 @@
 
   .logo {
     margin-right: 120px;
-    color: #2e2f42;
   }
 
   .panel {
@@ -253,7 +251,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 12px;
-    margin-right: 16px;
   }
 
   .contact-link {
@@ -305,10 +302,6 @@
   }
 
   .logo {
-    color: #2e2f42;
-  }
-
-  .logo {
     margin-right: 76px;
     margin-top: 0;
     margin-bottom: 0;
@@ -317,7 +310,6 @@
   .nav-item,
   .contact-item {
     display: flex;
-    margin-right: 40px;
     justify-content: flex-end;
   }
 

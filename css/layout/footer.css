@@ -208,9 +208,16 @@
   justify-content: center;
 }
 .subscription-label {
-  width: 264px;
-  display: flex;
+  width: 288px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  opacity: 0.3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
 }
+
 .form-subscription {
   display: flex;
   flex-direction: column;
@@ -223,11 +230,10 @@
   justify-content: center;
 }
 .subscription-input {
-  width: 264px;
+  width: 288px;
   height: 40px;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1px solid var(--WHITE, #fff);
   opacity: 0.3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
