@@ -176,6 +176,8 @@
 
   .footer-text-p {
     width: 264px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .footer-pege {
     display: flex;
