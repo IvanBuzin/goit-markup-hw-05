@@ -101,7 +101,9 @@
 .mobile-menu-address-social-container {
   display: flex;
   flex-direction: column;
+  justify-content: end;
   gap: 48px;
+  margin-top: auto;
 }
 
 .mobile-menu-list {
